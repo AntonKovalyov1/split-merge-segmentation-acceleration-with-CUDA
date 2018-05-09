@@ -1,0 +1,29 @@
+﻿  Compiling CUDA source file mainApp.cu...
+  
+  C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\RegionSplittingMergingSegmentation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -gencode=arch=compute_35,code=\"sm_35,compute_35\" --use-local-env --cl-version 2015 -ccbin "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64" -x cu -rdc=true -I"C:\Users\koval\Documents\GP-GPU\opencv\build\x64\vc15\..\..\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /FS /Zi /RTC1 /MDd " -o x64\Debug\mainApp.cu.obj "C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\RegionSplittingMergingSegmentation\mainApp.cu" 
+  mainApp.cu
+  
+  C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\RegionSplittingMergingSegmentation>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\nvcc.exe" -dlink -o x64\Debug\RegionSplittingMergingSegmentation.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"C:\Users\koval\Documents\GP-GPU\opencv\build\x64\vc15\lib" -L"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\lib\x64" cudadevrt.lib cudart.lib kernel32.lib opencv_world340d.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib  -gencode=arch=compute_35,code=sm_35 -G --machine 64 x64\Debug\mainApp.cu.obj x64\Debug\cuda_seg.cu.obj 
+  cudadevrt.lib
+  cudart.lib
+  kernel32.lib
+  opencv_world340d.lib
+  user32.lib
+  gdi32.lib
+  winspool.lib
+  comdlg32.lib
+  advapi32.lib
+  shell32.lib
+  ole32.lib
+  oleaut32.lib
+  uuid.lib
+  odbc32.lib
+  odbccp32.lib
+  mainApp.cu.obj
+  cuda_seg.cu.obj
+  RegionSplittingMergingSegmentation.vcxproj -> C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\x64\Debug\RegionSplittingMergingSegmentation.exe
+  RegionSplittingMergingSegmentation.vcxproj -> C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\x64\Debug\RegionSplittingMergingSegmentation.pdb (Full PDB)
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart*.dll" "C:\Users\koval\Documents\Visual Studio 2015\Projects\RegionSplittingMergingSegmentation\x64\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart32_91.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.1\bin\cudart64_91.dll
+          2 file(s) copied.
